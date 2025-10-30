@@ -1,0 +1,30 @@
+# Dependencies
+/node_modules
+
+# Build output
+/.next
+/out
+
+# Production
+/.vercel
+
+# TypeScript
+/*.tsbuildinfo
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Prisma
+/prisma/dev.db
+/prisma/*.db
+/prisma/*.db-journal
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS
+.DS_Store
